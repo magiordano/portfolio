@@ -1,0 +1,23 @@
+{
+  "name": "cru_point",
+  "version": "1.0.0",
+  "description": "Cru Kombucha Software Solution",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kameronpaulsen/CruPoint.git"
+  },
+  "author": "Kameron Paulsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kameronpaulsen/CruPoint/issues"
+  },
+  "homepage": "https://github.com/Kameronpaulsen/CruPoint#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "npm": "^5.8.0"
+  }
+}
