@@ -6540,7 +6540,9 @@ header .container-fluid .animated.main-navigation .dropdown-menu .show .dropdown
 
 .social-links li {
   display: inline-block;
-  margin: 0 2px 2px 0;
+  margin: 0 100px 2px 0;
+  
+  
 }
 
 .social-links li a {
@@ -6563,6 +6565,7 @@ header .container-fluid .animated.main-navigation .dropdown-menu .show .dropdown
 .social-links li a:hover {
   background-color: transparent;
 }
+
 
 .social-links.animated-effect-1 li a {
   -webkit-transition: color 0.4s;
@@ -6696,13 +6699,13 @@ header .container-fluid .animated.main-navigation .dropdown-menu .show .dropdown
 }
 
 .social-links.small li a {
-  width: 30px;
-  height: 30px;
-  font-size: 14px;
+  width: 80px;
+  height: 80px;
+  font-size: 60px;
 }
 
 .social-links.small li a i {
-  line-height: 29px;
+  line-height: 60px;
 }
 
 .social-links.large li a {
