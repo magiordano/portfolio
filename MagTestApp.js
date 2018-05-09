@@ -13,15 +13,6 @@ app.get('/', function(req,res){
 	
 });
 
-app.get('/', function (req, res) {
-    var filePath = "/assets/MichaelGiordanoResume.pdf";
-
-    fs.readFile(__dirname + filePath , function (err,data){
-        res.contentType("application/pdf");
-        res.send(data);
-    });
-});
-
 
 
 var server = app.listen(80, function(){
