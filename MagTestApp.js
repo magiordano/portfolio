@@ -10,6 +10,17 @@ app.use(express.static('views'));
 
 app.get('/', function(req,res){
 	res.sendFile(_dirname + "/" + "index.html");
+	res.sendFile(_dirname + "/" + "assets" + "MichaelGiordanoResume.pdf");
+});
+
+app.get('/my/pdf', function (req, res) {
+    var doc = new Pdf();
+    doc.text("Hello World", 50, 50);
+
+    doc.output( function(pdf) {
+        res.type('application/pdf');
+        res.end(pdf, 'binary');
+    });
 });
 
 
