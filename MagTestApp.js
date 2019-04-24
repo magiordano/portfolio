@@ -10,7 +10,6 @@ app.use(express.static('views'));
 
 app.get('/', function(req,res){
 	res.sendFile(_dirname + "/" + "index.html");
-	
 });
 
 
